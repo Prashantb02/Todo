@@ -12,7 +12,7 @@ exports.getAllTodo = async (req, res) => {
 exports.getSpecificTodo = async (req, res) => {
     const { id } = req.params
     try {
-        const todo = await Todo.findByID(id)
+        const todo = await Todo.findById(id)
         
         res.status(200).json(todo)
     } catch (error) {
