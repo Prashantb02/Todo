@@ -1,0 +1,20 @@
+h1{
+    background-color: rgb(1,16,32);
+    color: aliceblue;
+    font-family: cursive;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+#todobox{
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 0.6rem;
+}
+#todo{
+    background-color: yellowgreen;
+    margin: auto;
+    width: 90%;
+    padding: 6px 1rem;
+}
